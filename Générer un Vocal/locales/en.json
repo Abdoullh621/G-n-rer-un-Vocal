@@ -1,0 +1,109 @@
+{
+  "addUser": {
+    "userNotSelected": "❌ Vous n'avez sélectionné aucun utilisateur.",
+    "userNotFound": "❌ L'utilisateur sélectionné est introuvable.",
+    "alreadyInChannel": "⚠️ L'utilisateur est déjà dans le salon.",
+    "addedSuccessfully": "✅ [user] a été ajouté(e) au salon avec succès.",
+    "addFailed": "❌ Échec de l'ajout de l'utilisateur au salon.",
+    "dmNotification": "Bonjour [user],\n\nVous avez été ajouté(e) au salon [channel] dans **[guild]**.",
+    "selectUserPlaceholder": "Sélectionnez un utilisateur à ajouter",
+    "selectUserPrompt": "🔍 Veuillez sélectionner un utilisateur à ajouter à votre salon :"
+  },
+  "interactionCreate": {
+    "channelDataNotFound": "❌ Données du salon introuvables.",
+    "voiceChannelNotFound": "❌ Salon vocal introuvable.",
+    "textChannelNotFound": "❌ Salon textuel introuvable.",
+    "permissionDenied": "❌ Vous n'avez pas la permission de gérer ce salon.",
+    "channelHidden": "🔒 Le salon est désormais caché pour tout le monde.",
+    "channelUnhidden": "🔓 Le salon est désormais visible pour tout le monde.",
+    "channelLocked": "🔒 Le salon est verrouillé. Personne ne peut y entrer.",
+    "channelUnlocked": "🔓 Le salon est déverrouillé. Les autres peuvent y entrer."
+  },
+  "voiceStateUpdate": {
+    "channelDeleted": "🗑️ Salon supprimé : [channelId]",
+    "channelCreated": "🎉 Salon vocal temporaire créé avec l'ID : [channelId]",
+    "textChannelCreated": "📄 Salon textuel temporaire créé avec l'ID : [textChannelId]",
+    "controlPanelSent": "🛠️ Panneau de contrôle envoyé dans le salon textuel : [textChannelId]",
+    "willDeleteIn": "⚠️ Ce salon sera supprimé dans 5 secondes...",
+    "channelDataSaved": "💾 Données du salon enregistrées pour le membre : [memberId]",
+    "textChannelDeleted": "🗑️ Salon textuel supprimé : [textChannelId]",
+    "channelDataDeleted": "💾 Données du salon supprimées pour le membre : [memberId]",
+    "error": "❌ Une erreur est survenue : [error]",
+    "channelRenamed": "✅ Salon renommé en **[newName]**.",
+    "userLimitSet": "✅ Limite d'utilisateurs du salon définie à **[newLimit]**.",
+    "topicSet": "✅ Sujet du salon défini sur **[newTopic]**."
+  },
+  "deleteConfirmation": {
+    "title": "🗑️ Confirmation de suppression",
+    "prompt": "🗑️ **Êtes-vous sûr de vouloir supprimer ce salon ?**",
+    "willDeleteIn": "⚠️ Ce salon sera supprimé dans 5 secondes...",
+    "deletionCanceled": "✅ Suppression du salon annulée.",
+    "deletionSuccess": "✅ Salon supprimé avec succès.",
+    "confirmDelete": "✅ Oui",
+    "cancelDelete": "❌ Non"
+  },
+  "modals": {
+    "renameTitle": "✏️ Renommer le salon vocal",
+    "renameLabel": "Entrez le nouveau nom du salon :",
+    "renamePlaceholder": "Nouveau nom du salon",
+    "setLimitTitle": "📈 Définir une limite pour le salon vocal",
+    "setLimitLabel": "Entrez la limite d'utilisateurs (0-99) :",
+    "setLimitPlaceholder": "Exemple : 10"
+  },
+  "controlPanel": {
+    "title": "🎛️ Panneau de contrôle du salon vocal",
+    "description": "Utilisez les boutons ci-dessous pour gérer votre salon vocal.",
+    "color": "#0099ff"
+  },
+  "buttons": {
+    "hide": "🔒 Cacher le salon",
+    "unhide": "🔓 Rendre le salon visible",
+    "rename": "✏️ Renommer le salon",
+    "lock": "🔒 Verrouiller le salon",
+    "unlock": "🔓 Déverrouiller le salon",
+    "setLimit": "📈 Définir une limite",
+    "addMember": "➕ Ajouter un membre",
+    "removeMember": "❌ Retirer un membre",
+    "blacklist": "🚫 Liste noire",
+    "delete": "🗑️ Supprimer le salon",
+    "transferOwnership": "🔄 Transférer la propriété",
+    "confirmDelete": "✅ Oui",
+    "cancelDelete": "❌ Non"
+  },
+  "transferOwnership": {
+    "selectUserPlaceholder": "Sélectionnez un utilisateur pour transférer la propriété",
+    "selectUserPrompt": "🔍 Veuillez sélectionner un utilisateur pour transférer la propriété :",
+    "userNotSelected": "❌ Aucun utilisateur sélectionné.",
+    "userNotFound": "❌ L'utilisateur sélectionné est introuvable.",
+    "success": "✅ La propriété a été transférée à [user].",
+    "transferFailed": "❌ Échec du transfert de propriété.",
+    "dmNotification": "Bonjour [user],\n\nVous êtes désormais le propriétaire du salon [channel] dans **[guild]**.",
+    "previousOwnerNotification": "🔄 La propriété du salon [channel] dans **[guild]** a été transférée à [user].",
+    "noEligibleMembers": "❌ Aucun membre éligible pour le transfert de propriété."
+  },
+  "removeMember": {
+    "noMembersInChannel": "⚠️ Il n'y a aucun autre membre dans votre salon vocal.",
+    "selectUserPlaceholder": "Sélectionnez un ou plusieurs membres à retirer",
+    "selectUserPrompt": "🔍 Veuillez sélectionner un ou plusieurs membres à retirer de votre salon vocal :",
+    "userNotSelected": "❌ Aucun utilisateur sélectionné.",
+    "removedSuccessfully": "✅ [user] a été retiré(e) du salon vocal avec succès.",
+    "removeFailed": "❌ Échec du retrait des membres suivants"
+  },
+  "blacklist": {
+    "selectUserPlaceholder": "Sélectionnez un ou plusieurs utilisateurs à ajouter à la liste noire",
+    "selectUserPrompt": "🔍 Veuillez sélectionner un ou plusieurs utilisateurs à ajouter à la liste noire :",
+    "userNotSelected": "❌ Aucun utilisateur sélectionné.",
+    "blacklistedSuccessfully": "✅ [user] a été ajouté(e) à la liste noire avec succès.",
+    "alreadyBlacklisted": "⚠️ Les utilisateurs suivants sont déjà dans la liste noire",
+    "blacklistFailed": "❌ Échec de l'ajout des utilisateurs suivants à la liste noire"
+  },
+  "errors": {
+    "unknownAction": "❓ Action inconnue.",
+    "operationFailed": "❌ Échec de l'opération.",
+    "invalidChannelName": "❌ Longueur du nom de salon invalide.",
+    "invalidUserLimit": "❌ Veuillez entrer un nombre valide entre 1 et 99.",
+    "invalidTopicLength": "❌ Longueur du sujet invalide.",
+    "channelNotFound": "❌ Salon introuvable.",
+    "noMembersToAdd": "❌ Aucun membre disponible à ajouter."
+  }
+}
